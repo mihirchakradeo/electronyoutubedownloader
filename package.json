@@ -1,0 +1,18 @@
+{
+  "name": "youtube-downloader-electron",
+  "version": "1.0.0",
+  "description": "youtube downloader based on electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "package": "",
+    "build": "electron-packager . YoutubeDownloader"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "asar": "^0.13.0",
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2"
+  }
+}
